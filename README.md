@@ -1,2 +1,2 @@
 # NetflixClone
-This is an unresponsive clone of netflix made of html and css
+This web application can tell the temprature of different cities 
