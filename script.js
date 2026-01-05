@@ -5,7 +5,7 @@ const search_btn = document.querySelector(".search button");
 let city;
 let image = document.querySelector(".hero").getElementsByTagName("img")[0];
 function temp(kelvin) {
-  cel_temp = Math.round((kelvin - 272.15) * 100) / 100;
+  cel_temp = Math.round((kelvin - 273.15) * 100) / 100;
   temprature = Math.round(cel_temp);
   return temprature;
 }
@@ -55,4 +55,5 @@ function main() {
 
 }
 main();
+
 
