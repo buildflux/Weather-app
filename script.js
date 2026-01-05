@@ -30,17 +30,17 @@ async function checkWheater(city) {
   if (data.wheather[0].main == "Snow") {
     document.querySelector(".hero").getElementsByTagName("img")[0].src =
       "icons/snow.png";
-  } else if (data.wheather[0].main == "Rain") {
+  } else if (data.weather[0].main == "Rain") {
     image.src = "icons/rain.png";
-  } else if (data.wheather[0].main == "Drizzle") {
+  } else if (data.weather[0].main == "Drizzle") {
     image.src = "icons/drizzle.png";
-  } else if (data.wheather[0].main == "Thunderstorm") {
+  } else if (data.weather[0].main == "Thunderstorm") {
     image.src = "icons/rain.png";
-  } else if (data.wheather[0].main == "Mist") {
+  } else if (data.weather[0].main == "Mist") {
     image.src = "icons/mist.png";
-  } else if (data.wheather[0].main == "Clear") {
+  } else if (data.weather[0].main == "Clear") {
     image.src = "icons/clear.png";
-  } else if (data.wheather[0].main == "Clouds") {
+  } else if (data.weather[0].main == "Clouds") {
     image.src = "icons/clouds.png";
   }
   console.log("Weather condition:", data.weather[0].main);
@@ -55,3 +55,4 @@ function main() {
 
 }
 main();
+
