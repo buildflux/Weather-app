@@ -13,7 +13,7 @@ function round(input) {
   let rounded = Math.round(input);
   return rounded;
 }
-async function checkWheater(city) {
+async function checkWeater(city) {
   const response = await fetch(apiUrl + `&q=${city}&appid=${apiKey}`);
   let data = await response.json();
   console.log(data);
@@ -55,5 +55,6 @@ function main() {
 
 }
 main();
+
 
 
