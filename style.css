@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+
 }
 .card {
   width: 344px;
@@ -19,6 +19,7 @@ body {
   border-radius: 20px;
   padding: 25px;
   background: linear-gradient(180deg, #3be7b0 0%, #2acdbb 50%, #2196c8 100%);
+  margin-top:40px;
 }
 .search {
   display: flex;
@@ -105,3 +106,4 @@ body {
   }
 
 }
+
