@@ -18,9 +18,10 @@ async function checkWeather(city) {
   }
 
   document.querySelector(".city-name").innerHTML = data.name;
-  document.querySelector(".temp").innerHTML =
+    document.querySelector(".temp").style.fontSize = "2.5rem"
+      document.querySelector(".temp").innerHTML =
     `${Math.round(data.main.temp)}&degC`;
-
+  
   document.querySelector(".humidity-text p").innerHTML =
     data.main.humidity + "%";
 
@@ -48,4 +49,3 @@ search.addEventListener("keydown", (e) => {
     checkWeather(search.value);
   }
 });
-
